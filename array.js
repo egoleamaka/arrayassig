@@ -6,4 +6,6 @@ let arr1 = []
 
 let fullName = 'amaka egole'
 
+//split your fullname
 
+fullName.split('')
