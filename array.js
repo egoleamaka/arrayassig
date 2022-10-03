@@ -17,4 +17,7 @@ arr2.pop()
 
 //remove the empty space
 arr2.splice(arr2.indexOf(' '),1)
+
+//remove the fifth character and add ur middle name
+arr2.splice(arr2.indexOf(5),1,'glory')
 console.log(arr2)
