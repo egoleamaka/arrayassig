@@ -15,6 +15,6 @@ arr2.shift()
 //remove the last character
 arr2.pop()
 
-
-// let withoutFirstAndLast = male.slice(1, -1)
+//remove the empty space
+arr2.splice(arr2.indexOf(' '),1)
 console.log(arr2)
