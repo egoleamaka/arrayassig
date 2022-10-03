@@ -19,5 +19,11 @@ arr2.pop()
 arr2.splice(arr2.indexOf(' '),1)
 
 //remove the fifth character and add ur middle name
-arr2.splice(arr2.indexOf(5),1,'glory')
-console.log(arr2)
+
+arr2.pop()
+arr2.splice(4,1,'glory')
+
+
+//push the length of the array into it
+arr1.push(arr2.length)
+console.log(arr1)
